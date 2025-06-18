@@ -146,6 +146,14 @@ const buttonStyle = { padding: '10px', margin: '6px 6px 10px 0', cursor: 'pointe
 const centeredContainer = { minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' };
 const cardStyle = { width: 400, padding: 20, border: '1px solid #ccc', borderRadius: 8 };
 const ticketStyle = { border: '1px solid #ccc', padding: 10, marginBottom: 15 };
+const headerStyle = {
+  fontWeight: 'bold',
+  fontSize: '20px',
+  color: '#333',
+};
+const sendBulkForm = () => {
+  console.log("Bulk form submitted.");
+};
 
 
  const handleSourcingLog = async (ticketId) => {
